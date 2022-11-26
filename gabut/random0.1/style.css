@@ -1,0 +1,39 @@
+body {
+    background-color: #111;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: skyblue;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    padding: 3px 0;
+}
+
+form{
+    text-align: center;
+    border: 2px dotted skyblue;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+input {
+    background-color: transparent; 
+    border: 1px solid white;
+    outline: none;
+    color: white;
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}

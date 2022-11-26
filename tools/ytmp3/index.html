@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Youtube Music Download</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="kontainer">
+            <div class="image">
+                <img src="./assets/music.png" />
+                <h1>Music Download</h1>
+            </div>
+            <div class="input">
+                <input
+                    autocomplete="off"
+                    type="text"
+                    placeholder="Paste Link"
+                    id="url"
+                />
+                <button id="hit">Get</button>
+            </div>
+            <div class="finally">
+                <div id="loading" class="loading">
+                    <span></span>
+                    <span></span>
+                </div>
+                <p class="glink">Getting Link</p>
+            </div>
+        </div>
+        <footer>
+            <h3>--making with love by n12412--</h3>
+        </footer>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
